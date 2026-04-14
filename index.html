@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obius — Architect Your Thoughts</title>
+  <meta name="description" content="Designed for thinking, building, and connecting your ideas. Available on iOS and macOS.">
+  <link rel="icon" type="image/png" href="assets/mobiusstrip transparent.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend+Exa:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ── Nav ── -->
+  <nav>
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="assets/obius transparent background.png" alt="Obius">
+        <span>Obius</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#preview">Explore</a></li>
+        <li><a href="#structure">Features</a></li>
+        <li><a href="#ai">AI</a></li>
+        <li><a href="#portals">Loops</a></li>
+        <li><a href="#versions">Versions</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#download" class="btn btn-primary btn-sm">Download</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════
+       Section 1: Hero
+       ══════════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="container hero-split">
+      <div class="hero-content">
+        <h1 class="hero-title">Architect your thoughts.</h1>
+        <p class="hero-subtitle">
+          Designed for thinking, building, and connecting your ideas.
+        </p>
+        <div class="hero-ctas">
+          <a href="#" class="store-badge">
+            <div class="badge-icon">
+              <svg width="20" height="24" viewBox="0 0 814 1000" fill="currentColor">
+                <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76.5 0-103.7 40.8-165.9 40.8s-105.6-57.8-155.5-127.4c-58.3-81.2-105.9-207.6-105.9-328.6 0-193 125.4-295.6 248.8-295.6 65.6 0 120.1 43.1 161.2 43.1 39.2 0 100.2-45.7 174.5-45.7 28.2 0 129.6 2.6 196.9 99.8zM554.1 159.4c31.1-36.9 53.1-88.1 53.1-139.3 0-7.1-.6-14.3-1.9-20.1-50.6 1.9-110.8 33.7-147.1 75.8-28.2 31.7-56.4 82.9-56.4 135 0 7.8.7 15.6 1.3 18.2 2.6.5 6.4.6 10.2.6 45.8 0 103.7-30.4 140.8-70.2z"/>
+              </svg>
+            </div>
+            <div class="badge-text">
+              <div class="badge-label">Download on the</div>
+              <div class="badge-store">App Store</div>
+            </div>
+          </a>
+          <a href="#" class="store-badge">
+            <div class="badge-icon">
+              <svg width="20" height="24" viewBox="0 0 814 1000" fill="currentColor">
+                <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76.5 0-103.7 40.8-165.9 40.8s-105.6-57.8-155.5-127.4c-58.3-81.2-105.9-207.6-105.9-328.6 0-193 125.4-295.6 248.8-295.6 65.6 0 120.1 43.1 161.2 43.1 39.2 0 100.2-45.7 174.5-45.7 28.2 0 129.6 2.6 196.9 99.8zM554.1 159.4c31.1-36.9 53.1-88.1 53.1-139.3 0-7.1-.6-14.3-1.9-20.1-50.6 1.9-110.8 33.7-147.1 75.8-28.2 31.7-56.4 82.9-56.4 135 0 7.8.7 15.6 1.3 18.2 2.6.5 6.4.6 10.2.6 45.8 0 103.7-30.4 140.8-70.2z"/>
+              </svg>
+            </div>
+            <div class="badge-text">
+              <div class="badge-label">Download on the</div>
+              <div class="badge-store">Mac App Store</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/hero/hero-obius-one.png" alt="Obius app screenshot">
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Transition ── -->
+  <section class="transition-section">
+    <div class="container">
+      <h2 class="transition-headline">Where Ideas Connect.</h2>
+    </div>
+  </section>
+
+  <!-- ── Preview Slideshow ── -->
+  <section id="preview" style="background: var(--surface);">
+    <div class="container">
+      <div class="section-header">
+        <h2>See It in Action</h2>
+        <p>Explore Obius across your favorite Apple devices.</p>
+      </div>
+      <div class="preview-tabs">
+        <button class="preview-tab active" data-platform="macos">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+          </svg>
+          macOS
+        </button>
+        <button class="preview-tab" data-platform="ios">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/>
+          </svg>
+          iOS
+        </button>
+      </div>
+      <div class="slideshow-wrapper">
+        <div class="slideshow active" id="slideshow-macos" data-count="7">
+          <div class="slideshow-track">
+            <img src="assets/macOS/1.png" alt="Obius macOS screenshot 1" class="slide active">
+            <img src="assets/macOS/2.png" alt="Obius macOS screenshot 2" class="slide">
+            <img src="assets/macOS/3.png" alt="Obius macOS screenshot 3" class="slide">
+            <img src="assets/macOS/4.png" alt="Obius macOS screenshot 4" class="slide">
+            <img src="assets/macOS/5.png" alt="Obius macOS screenshot 5" class="slide">
+            <img src="assets/macOS/6.png" alt="Obius macOS screenshot 6" class="slide">
+            <img src="assets/macOS/7.png" alt="Obius macOS screenshot 7" class="slide">
+          </div>
+        </div>
+        <div class="slideshow" id="slideshow-ios" data-count="7">
+          <div class="slideshow-track">
+            <img src="assets/iOS/1.png" alt="Obius iOS screenshot 1" class="slide active">
+            <img src="assets/iOS/2.png" alt="Obius iOS screenshot 2" class="slide">
+            <img src="assets/iOS/3.png" alt="Obius iOS screenshot 3" class="slide">
+            <img src="assets/iOS/4.png" alt="Obius iOS screenshot 4" class="slide">
+            <img src="assets/iOS/5.png" alt="Obius iOS screenshot 5" class="slide">
+            <img src="assets/iOS/6.png" alt="Obius iOS screenshot 6" class="slide">
+            <img src="assets/iOS/7.png" alt="Obius iOS screenshot 7" class="slide">
+          </div>
+        </div>
+        <button class="slide-arrow slide-prev" aria-label="Previous slide">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button class="slide-arrow slide-next" aria-label="Next slide">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+      <div class="slide-dots" id="slide-dots"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       Section 2: Nodes
+       ══════════════════════════════════════════════ -->
+  <section id="structure">
+    <div class="container">
+      <div class="section-header">
+        <h2>From storage to architecture.</h2>
+        <p>Most tools ask "Where should I put this?" Obius asks "What is this, and how does it connect?"</p>
+      </div>
+      <div class="section-image">
+        <img src="assets/nodes/nodes - obius - two.png" alt="Obius nodes screenshot">
+      </div>
+      <div class="feature-list">
+        <div class="feature-list-item">
+          <div class="feature-list-icon blue-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Structured by design</h3>
+            <p>Every page is built from nodes — discrete, meaningful units of thought instead of endless text. Each node carries a visual identity so your eyes find structure before you read a word.</p>
+          </div>
+        </div>
+        <div class="feature-list-item">
+          <div class="feature-list-icon blue-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Focus, not clutter</h3>
+            <p>Collapse what you're not working on. Expand what matters. Nest nodes to build hierarchy. The page adapts to your focus, not the other way around.</p>
+          </div>
+        </div>
+        <div class="feature-list-item">
+          <div class="feature-list-icon blue-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+            </svg>
+          </div>
+          <div>
+            <h3>See the shape of your thinking</h3>
+            <p>No more scrolling through walls of text to find the one thing you need. Nodes break your thinking into pieces you can see, move, and reorganize — so the structure of the page matches the structure of the idea.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section-callout">
+        <p class="callout-accent">When context is defined: work stays focused, ideas stay connected, decisions become clear. Obius doesn't just store information. It sharpens it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       Section 3: AI Workspace
+       ══════════════════════════════════════════════ -->
+  <section id="ai" style="background: var(--surface);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Intelligence that understands structure.</h2>
+        <p>Not a chatbot bolted on. An AI that reads your thinking and works within it.</p>
+      </div>
+      <div class="feature-list">
+        <div class="feature-list-item">
+          <div class="feature-list-icon purple-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a4 4 0 0 0-4 4v2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h-2V6a4 4 0 0 0-4-4z"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Obius Intelligence</h3>
+            <p>Read, edit, and restructure your notes through natural language. The AI understands your semantic intents — it knows the difference between your ideas, your questions, and your evidence.</p>
+          </div>
+        </div>
+        <div class="feature-list-item">
+          <div class="feature-list-icon purple-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Automatic intelligence</h3>
+            <p>Smart title generation, semantic tagging, and entity extraction happen automatically. Ask it to restructure a section, surface connections, or draft new content.</p>
+          </div>
+        </div>
+        <div class="feature-list-item">
+          <div class="feature-list-icon purple-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Daily token budgets</h3>
+            <p>50k tokens free, 500k tokens on Pro — so it's always available when you need it, without surprise costs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section-callout">
+        <p>AI generates infinite content. Information is cheap. <strong>Clarity is rare.</strong></p>
+        <p class="callout-accent">The advantage is no longer access to information. It's the ability to structure it, connect it, trust it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       Section 4: Portals
+       ══════════════════════════════════════════════ -->
+  <section id="portals">
+    <div class="container">
+      <div class="section-header">
+        <h2>Reusable, living concepts that show up everywhere.</h2>
+        <p>Define once. Reference anywhere. Always in sync.</p>
+      </div>
+      <div class="feature-list">
+        <div class="feature-list-item">
+          <div class="feature-list-icon orange-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Loops</h3>
+            <p>Create a named handle — <code>@project_goals</code>, <code>@key_decisions</code>, <code>@weekly_focus</code> — that holds content you can reference from anywhere. Link any node in any note to a handle — it displays the content live. Edit the handle once, every linked node across every note updates instantly.</p>
+          </div>
+        </div>
+        <div class="feature-list-item">
+          <div class="feature-list-icon orange-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Echoes</h3>
+            <p>Attach time-based reminders to any handle and see them on your calendar. Set a single date or build compound schedules — every 2 days and every 3 weeks. When an echo fires, it surfaces the handle and every note that references it. Your concepts don't just sit there — they come back to you on schedule.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section-callout">
+        <p>Your <code>@thesis_statement</code> exists in your research note, your outline, and your draft — and when it evolves, it evolves everywhere. No copy-paste drift. No stale versions.</p>
+        <p class="callout-accent">Thinking is nonlinear. Your tools should be too.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       Section 5: Versions
+       ══════════════════════════════════════════════ -->
+  <section id="versions" style="background: var(--surface);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Track how your thinking evolves. Trust every version.</h2>
+        <p>Turn thoughts into verified, immutable artifacts.</p>
+      </div>
+      <div class="commit-grid">
+        <div class="commit-card">
+          <h3>Versioning</h3>
+          <p>Auto-saves daily snapshots of every modified note. Save a version manually anytime with a custom name.</p>
+        </div>
+        <div class="commit-card">
+          <h3>Immutable</h3>
+          <p>Each version is a complete snapshot — not a diff. Full note, all nodes, all media. Compressed archives with SHA-256 integrity hashes. Human-readable IDs like <code>OBX-A1B2-C3D4</code>.</p>
+        </div>
+        <div class="commit-card">
+          <h3>Restore</h3>
+          <p>Browse your version history, preview any state, restore to any previous point. Ideas evolve — you should be able to see exactly how.</p>
+        </div>
+        <div class="commit-card">
+          <h3>Share</h3>
+          <p>Share a live note (always current) or a frozen version (specific snapshot) via short URLs. View count tracking included.</p>
+        </div>
+      </div>
+      <div class="section-callout">
+        <p>Every thought can be traced, verified. <strong>A system of record for ideas. A provenance layer for decisions.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       Section 6: Insights
+       ══════════════════════════════════════════════ -->
+  <section id="insights">
+    <div class="container">
+      <div class="section-header">
+        <h2>Your system works even when you don't.</h2>
+        <p>Proactive intelligence that surfaces what matters.</p>
+      </div>
+      <div class="insights-grid">
+        <div class="insight-item">
+          <div class="insight-icon" style="color: var(--green);">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Safety</h3>
+            <p>Detects leaked API keys, passwords, and personal data in your notes.</p>
+          </div>
+        </div>
+        <div class="insight-item">
+          <div class="insight-icon" style="color: var(--blue);">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+              <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Connections</h3>
+            <p>Discovers shared concepts between notes you didn't explicitly link.</p>
+          </div>
+        </div>
+        <div class="insight-item">
+          <div class="insight-icon" style="color: var(--yellow);">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="3 6 5 6 21 6"/><path d="M19 6l-2 14H7L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><line x1="9" y1="3" x2="15" y2="3"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Cleanup</h3>
+            <p>Identifies dormant handles, nonsense content, and stale sections that need attention.</p>
+          </div>
+        </div>
+        <div class="insight-item">
+          <div class="insight-icon" style="color: var(--purple);">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/>
+              <line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Formatting</h3>
+            <p>Spots list-like content that would work better as checklists.</p>
+          </div>
+        </div>
+        <div class="insight-item">
+          <div class="insight-icon" style="color: var(--orange);">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+            </svg>
+          </div>
+          <div>
+            <h3>Upcoming Echoes</h3>
+            <p>Dashboard of reminders firing within 24 hours so nothing slips through the cracks.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section-callout">
+        <p class="callout-accent">Intelligence that surfaces what matters, before you ask for it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       Section 7: Privacy — Local-First
+       ══════════════════════════════════════════════ -->
+  <section id="privacy" style="background: var(--surface);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Your thoughts stay yours.</h2>
+        <p>Everything lives on-device. Cloud sync is optional.</p>
+      </div>
+      <div class="privacy-grid">
+        <div class="privacy-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+          </svg>
+          <h3>Local SQLite storage</h3>
+          <p>All data stored locally on your device. Nothing leaves unless you choose.</p>
+        </div>
+        <div class="privacy-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/>
+            <path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/>
+          </svg>
+          <h3>Optional cloud sync</h3>
+          <p>Pro and Founding users get multi-device access. Offline-first — works without internet, syncs when connected.</p>
+        </div>
+        <div class="privacy-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+          </svg>
+          <h3>Biometric locks</h3>
+          <p>Lock individual sections with Face ID or Touch ID. Your most sensitive thinking stays protected.</p>
+        </div>
+      </div>
+      <div class="section-callout">
+        <p class="callout-accent">A trust layer for AI-assisted work. Every thought can be traced, verified, understood.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       Section 8: Pricing
+       ══════════════════════════════════════════════ -->
+  <section id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <h2>Built for builders.</h2>
+        <p>Start free. Go Pro when your system demands it.</p>
+      </div>
+      <div class="pricing-grid four-col">
+        <!-- Free -->
+        <div class="pricing-card">
+          <div class="pricing-tier">Free</div>
+          <div class="pricing-price">$0</div>
+          <div class="pricing-period">forever</div>
+          <ul class="pricing-features">
+            <li class="included">Up to 50 notes</li>
+            <li class="included">Sections & Intents</li>
+            <li class="included">Loops & Echoes</li>
+            <li class="included">AI Workspace — 50k tokens/day</li>
+            <li class="excluded">Cloud Sync</li>
+            <li class="excluded">Commits & Versioning</li>
+            <li class="excluded">Share Links</li>
+            <li class="excluded">Semantic Search</li>
+          </ul>
+          <a href="#" class="btn btn-secondary" style="width:100%; justify-content:center;">Get Started</a>
+        </div>
+        <!-- Pro Monthly -->
+        <div class="pricing-card">
+          <div class="pricing-tier">Pro Monthly</div>
+          <div class="pricing-price">$5.99</div>
+          <div class="pricing-period">per month</div>
+          <ul class="pricing-features">
+            <li class="included">Unlimited notes</li>
+            <li class="included">Sections & Intents</li>
+            <li class="included">Loops & Echoes</li>
+            <li class="included">AI Workspace — 500k tokens/day</li>
+            <li class="included">Cloud Sync</li>
+            <li class="included">Commits & Versioning</li>
+            <li class="included">Share Links</li>
+            <li class="included">Semantic Search</li>
+          </ul>
+          <a href="#" class="btn btn-primary" style="width:100%; justify-content:center;">Subscribe</a>
+        </div>
+        <!-- Pro Annual -->
+        <div class="pricing-card featured">
+          <div class="pricing-badge save-badge">Save 33%</div>
+          <div class="pricing-tier">Pro Annual</div>
+          <div class="pricing-price">$47.99</div>
+          <div class="pricing-period">per year (~$4/mo)</div>
+          <ul class="pricing-features">
+            <li class="included">Unlimited notes</li>
+            <li class="included">Sections & Intents</li>
+            <li class="included">Loops & Echoes</li>
+            <li class="included">AI Workspace — 500k tokens/day</li>
+            <li class="included">Cloud Sync</li>
+            <li class="included">Commits & Versioning</li>
+            <li class="included">Share Links</li>
+            <li class="included">Semantic Search</li>
+          </ul>
+          <a href="#" class="btn btn-primary" style="width:100%; justify-content:center;">Subscribe Annually</a>
+        </div>
+        <!-- Founding -->
+        <div class="pricing-card founding">
+          <div class="pricing-badge">200 Spots</div>
+          <div class="pricing-tier">Founding</div>
+          <div class="pricing-price">$3.99</div>
+          <div class="pricing-period">per month — forever</div>
+          <ul class="pricing-features">
+            <li class="included">Unlimited notes</li>
+            <li class="included">Sections & Intents</li>
+            <li class="included">Loops & Echoes</li>
+            <li class="included">AI Workspace — 500k tokens/day</li>
+            <li class="included">Cloud Sync</li>
+            <li class="included">Commits & Versioning</li>
+            <li class="included">Share Links</li>
+            <li class="included">Semantic Search</li>
+          </ul>
+          <a href="#" class="btn btn-primary" style="width:100%; justify-content:center;">Claim Your Spot</a>
+          <p class="founding-note">200 founding spots at $3.99/mo — locked forever. Once they're gone, they're gone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       Section 9: Final CTA
+       ══════════════════════════════════════════════ -->
+  <section id="download" class="cta-section">
+    <div class="container">
+      <h2>Built for thinking. Designed for your mind.</h2>
+      <p class="cta-subline">Architect your thoughts.</p>
+      <div class="hero-ctas">
+        <a href="#" class="store-badge">
+          <div class="badge-icon">
+            <svg width="20" height="24" viewBox="0 0 814 1000" fill="currentColor">
+              <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76.5 0-103.7 40.8-165.9 40.8s-105.6-57.8-155.5-127.4c-58.3-81.2-105.9-207.6-105.9-328.6 0-193 125.4-295.6 248.8-295.6 65.6 0 120.1 43.1 161.2 43.1 39.2 0 100.2-45.7 174.5-45.7 28.2 0 129.6 2.6 196.9 99.8zM554.1 159.4c31.1-36.9 53.1-88.1 53.1-139.3 0-7.1-.6-14.3-1.9-20.1-50.6 1.9-110.8 33.7-147.1 75.8-28.2 31.7-56.4 82.9-56.4 135 0 7.8.7 15.6 1.3 18.2 2.6.5 6.4.6 10.2.6 45.8 0 103.7-30.4 140.8-70.2z"/>
+            </svg>
+          </div>
+          <div class="badge-text">
+            <div class="badge-label">Download on the</div>
+            <div class="badge-store">App Store</div>
+          </div>
+        </a>
+        <a href="#" class="store-badge">
+          <div class="badge-icon">
+            <svg width="20" height="24" viewBox="0 0 814 1000" fill="currentColor">
+              <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76.5 0-103.7 40.8-165.9 40.8s-105.6-57.8-155.5-127.4c-58.3-81.2-105.9-207.6-105.9-328.6 0-193 125.4-295.6 248.8-295.6 65.6 0 120.1 43.1 161.2 43.1 39.2 0 100.2-45.7 174.5-45.7 28.2 0 129.6 2.6 196.9 99.8zM554.1 159.4c31.1-36.9 53.1-88.1 53.1-139.3 0-7.1-.6-14.3-1.9-20.1-50.6 1.9-110.8 33.7-147.1 75.8-28.2 31.7-56.4 82.9-56.4 135 0 7.8.7 15.6 1.3 18.2 2.6.5 6.4.6 10.2.6 45.8 0 103.7-30.4 140.8-70.2z"/>
+            </svg>
+          </div>
+          <div class="badge-text">
+            <div class="badge-label">Download on the</div>
+            <div class="badge-store">Mac App Store</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="container footer-inner">
+      <p>&copy; 2026 Obius. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="https://docs.google.com/document/d/e/2PACX-1vRbJ9cYTWnyQSYeL8JrTOizC0eC-f8rhoicqh3GttTDIrbNlesR-_auwkFz2OLsTTzguDG3YLtzwnEY/pub" target="_blank" rel="noopener">Privacy</a></li>
+        <li><a href="https://docs.google.com/document/d/e/2PACX-1vRq_bt_Z_V7ci7lS3hHLzq4QjRrDFJsJu6Ab-oedeeSakGPGcx_dJlG3EDAzdetptd21GPyEtzTxKbg/pub" target="_blank" rel="noopener">Terms</a></li>
+        <li><a href="#" id="support-link">Support</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- ── Contact Modal ── -->
+  <div class="modal-overlay" id="contact-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Contact Us</h3>
+        <button class="modal-close" id="modal-close" aria-label="Close">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="contact-name">Name</label>
+          <input type="text" id="contact-name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-email">Email</label>
+          <input type="email" id="contact-email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-subject">Subject</label>
+          <input type="text" id="contact-subject" placeholder="How can we help?">
+        </div>
+        <div class="form-group">
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" rows="4" placeholder="Tell us more..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

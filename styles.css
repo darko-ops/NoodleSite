@@ -805,14 +805,21 @@ nav {
   flex-direction: column;
 }
 
-.pricing-card.featured {
+.pricing-card:hover {
   border-color: var(--blue);
   box-shadow: 0 0 0 1px var(--blue);
 }
 
-.pricing-card.founding {
-  border-color: var(--blue);
-  box-shadow: 0 0 0 1px var(--blue);
+@media (hover: none) {
+  .pricing-card:hover {
+    border-color: var(--border);
+    box-shadow: none;
+  }
+
+  .pricing-card:active {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 1px var(--blue);
+  }
 }
 
 .pricing-badge {

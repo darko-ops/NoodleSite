@@ -82,10 +82,10 @@ nav {
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(10, 10, 10, 0.95);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid #262626;
 }
 
 .nav-inner {
@@ -111,6 +111,7 @@ nav {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.02em;
+  color: #FAFAFA;
 }
 
 .nav-links {
@@ -123,12 +124,12 @@ nav {
 .nav-links a {
   font-size: 14px;
   font-weight: 500;
-  color: var(--text-secondary);
+  color: #A3A3A3;
   transition: color 0.2s ease-in-out;
 }
 
 .nav-links a:hover {
-  color: var(--text-primary);
+  color: #FAFAFA;
 }
 
 .nav-links a.btn-primary {
@@ -806,12 +807,12 @@ nav {
 
 .pricing-card.featured {
   border-color: var(--blue);
-  box-shadow: 0 0 0 1px var(--orange);
+  box-shadow: 0 0 0 1px var(--blue);
 }
 
 .pricing-card.founding {
-  border-color: var(--purple);
-  box-shadow: 0 0 0 1px var(--purple);
+  border-color: var(--blue);
+  box-shadow: 0 0 0 1px var(--blue);
 }
 
 .pricing-badge {

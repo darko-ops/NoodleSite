@@ -31,12 +31,8 @@
   --radius-lg: 12px;
 }
 
-html, body {
+body {
   overflow-x: hidden;
-}
-
-html {
-  scroll-behavior: auto;
 }
 
 body {

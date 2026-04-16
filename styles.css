@@ -453,6 +453,11 @@ nav {
     align-items: center;
   }
 
+  .slideshow.active {
+    display: block;
+    width: 100%;
+  }
+
   .slide-arrow {
     position: static;
     transform: none;

@@ -414,6 +414,10 @@ nav {
   transform: translateY(-50%) scale(1.05);
 }
 
+.slide-nav-mobile {
+  display: contents;
+}
+
 .slide-prev { left: -20px; }
 .slide-next { right: -20px; }
 
@@ -443,12 +447,28 @@ nav {
 }
 
 @media (max-width: 768px) {
-  .slide-prev { left: 8px; }
-  .slide-next { right: 8px; }
+  .slideshow-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .slide-arrow {
-    width: 32px;
-    height: 32px;
+    position: static;
+    transform: none;
+    width: 36px;
+    height: 36px;
+  }
+
+  .slide-arrow:hover {
+    transform: scale(1.05);
+  }
+
+  .slide-nav-mobile {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 16px;
   }
 
   #slideshow-ios .slideshow-track {
